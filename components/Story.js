@@ -14,4 +14,4 @@ const styles = StyleSheet.create({
   username: { fontSize: 12, marginTop: 4 }
 });
 
-export default Story;
+export default 
