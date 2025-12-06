@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Raonson",
+    "slug": "raonson",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app_icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.raonson.app"
+    },
+    "android": {
+      "package": "com.raonson.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive_icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
